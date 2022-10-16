@@ -8,12 +8,12 @@ on:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "Userbottavish@gmail.com"
-  GitHubName: "Userbot007" 
+  GitHubMail: "userbottavish@gmail.com"
+  GitHubName: "userbot007" 
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
       - name: Checkout
